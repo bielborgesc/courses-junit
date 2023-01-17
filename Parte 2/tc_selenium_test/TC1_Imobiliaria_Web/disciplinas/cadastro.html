@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>Cadastrar Disciplina</title>
+  </head>
+  <body>
+    <header class="index-header">
+      <a href="../index.html">Disciplinas</a>
+    </header>
+    <div class="menu-nav">
+      <ul class="menu">
+        <li><a href="cadastro.html">Cadastrar</a></li>
+        <li><a href="alterar.html">Alterar</a></li>
+        <li><a href="listar.html">Listar Um</a></li>
+        <li><a href="listarTodos.html">Listar Todos</a></li>
+        <li><a href="excluir.html">Excluir</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <form action="" method="post">
+        <label for="sigla">Sigla: </label>
+        <input type="text" name="sigla" id="sigla"/><br>
+        <label for="nome">Nome: </label>
+        <input name="nome" id="nome"><br>
+        <label for="ementa">Ementa: </label>
+        <textarea name="ementa" id="ementa"></textarea><br>
+        <label for="lBibli">Livros Bibliografia: </label>
+        <textarea name="lBibli" id="lBibli"></textarea><br>
+        <label for="nCred">
+          Número de créditos:
+          <select name="nCred" id="nCred">
+            <option value="1">1</option>
+            <option value="2" selected>2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+          </select>
+        </label>
+        <label for="ch">Carga Horária: </label>
+        <input type="time" name="ch" id="ch"><br>
+        <button type="submit" id="enviar">Cadastrar</button>
+      </form>
+    </div>
+  </body>
+</html>

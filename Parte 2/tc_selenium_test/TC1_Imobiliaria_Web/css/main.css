@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-color: azure;
+}
+
+.index-header {
+    color: darkcyan;
+    font-size: 1.8rem;
+    margin: 3.2rem;
+    text-align: center;
+}
+
+.menu-escolha {
+    margin: 5rem 20rem;
+}
+.index-menu li {
+    align-items: center;
+    margin: 5rem;
+    padding: 2rem;
+    font-size: 2.1rem;
+    display: inline-block;
+    
+}
+
+.menu-nav {
+    margin: 0.5rem 10rem;
+}
+
+.menu li {
+    padding: 2rem;
+    margin: 1rem;
+    align-items: center;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+.content{
+    color: royalblue;
+}
+
+.content form{
+    text-align: center;
+}
+
+.content form input{
+    border: none;
+    background-color: wheat;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.content form textarea{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: royalblue;
+    font-size: 0.8rem;
+    border: none;
+    background-color: wheat;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.content form input[type="radio"]{
+    margin: 0.5rem;
+}
+
+.content form button {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin-top: 2rem;
+    padding: 1.2rem;
+    color: royalblue;
+    font-size: 1.5rem;
+    background-color: azure;
+    border: none;
+}
+.content form button:hover {
+    background-color: bisque;
+}
+
+a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
